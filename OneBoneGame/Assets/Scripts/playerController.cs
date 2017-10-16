@@ -10,9 +10,11 @@ public class playerController : MonoBehaviour {
 
 	public Transform groundCheck;
 	public LayerMask whatIsGround; //layers of that player can jump on (this case everything)
+	public GameObject sword; 
 
 	//ground check
 	bool grounded = false;
+	float timer;
 
 	Rigidbody2D rBody;
 
@@ -20,6 +22,7 @@ public class playerController : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		rBody = this.GetComponent<Rigidbody2D>();
+
 	}
 
 	private void FixedUpdate()
@@ -32,12 +35,44 @@ public class playerController : MonoBehaviour {
 	}
 
 	// Update is called once per frame
-	void Update () {
+	void Update()
+	{
+
+
 		if ((grounded) && Input.GetButtonDown("Jump")) //checking for the input and if groundcheck is overlapping with the ground
 		{
 
 			rBody.AddForce(new Vector2(0, jumpForce));
 
 		}
+
+		if (Input.GetKeyDown(KeyCode.Mouse0))   //sword spawn
+		{
+			timer = Time.time + 1f;
+		}
+		if (Time.time < timer)
+		{
+			sword.SetActive(true);
+		}
+		else
+		{
+			sword.SetActive(false);
+		}
+
+
+		if (Input.GetKey(KeyCode.D))  //flipping sprite
+		{
+			transform.eulerAngles = new Vector3(0, -180, 0);
+		}
+		else if (Input.GetKey(KeyCode.A))  //flipping sprite
+		{
+			transform.eulerAngles = new Vector3(0, 0, 0);
+		}
+
+
+
 	}
+		
+
+
 }
