@@ -1,0 +1,1326 @@
+fileFormatVersion: 2
+guid: 67a55255490d87346af9cd3dd9a27876
+timeCreated: 1512274073
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: MiscSpriteSheet_0
+    21300002: MiscSpriteSheet_1
+    21300004: MiscSpriteSheet_2
+    21300006: MiscSpriteSheet_4
+    21300008: MiscSpriteSheet_5
+    21300010: MiscSpriteSheet_7
+    21300012: MiscSpriteSheet_8
+    21300014: MiscSpriteSheet_9
+    21300016: MiscSpriteSheet_10
+    21300018: MiscSpriteSheet_19
+    21300020: MiscSpriteSheet_20
+    21300022: MiscSpriteSheet_28
+    21300024: MiscSpriteSheet_29
+    21300026: MiscSpriteSheet_36
+    21300028: MiscSpriteSheet_37
+    21300030: MiscSpriteSheet_43
+    21300032: MiscSpriteSheet_44
+    21300034: MiscSpriteSheet_45
+    21300036: MiscSpriteSheet_50
+    21300038: MiscSpriteSheet_51
+    21300040: MiscSpriteSheet_52
+    21300042: MiscSpriteSheet_56
+    21300044: MiscSpriteSheet_59
+    21300046: MiscSpriteSheet_61
+    21300048: MiscSpriteSheet_62
+    21300050: MiscSpriteSheet_63
+    21300052: MiscSpriteSheet_64
+    21300054: MiscSpriteSheet_65
+    21300056: MiscSpriteSheet_66
+    21300058: MiscSpriteSheet_67
+    21300060: MiscSpriteSheet_68
+    21300062: MiscSpriteSheet_69
+    21300064: MiscSpriteSheet_70
+    21300066: MiscSpriteSheet_71
+    21300068: MiscSpriteSheet_72
+    21300070: MiscSpriteSheet_73
+    21300072: MiscSpriteSheet_74
+    21300074: MiscSpriteSheet_75
+    21300076: MiscSpriteSheet_76
+    21300078: MiscSpriteSheet_77
+    21300080: MiscSpriteSheet_78
+    21300082: MiscSpriteSheet_79
+    21300084: MiscSpriteSheet_80
+    21300086: MiscSpriteSheet_81
+    21300088: MiscSpriteSheet_82
+    21300090: MiscSpriteSheet_83
+    21300092: MiscSpriteSheet_84
+    21300094: MiscSpriteSheet_85
+    21300096: MiscSpriteSheet_86
+    21300098: MiscSpriteSheet_87
+    21300100: MiscSpriteSheet_88
+    21300102: MiscSpriteSheet_89
+    21300104: MiscSpriteSheet_90
+    21300106: MiscSpriteSheet_91
+    21300108: MiscSpriteSheet_92
+    21300110: MiscSpriteSheet_93
+    21300112: MiscSpriteSheet_94
+    21300114: MiscSpriteSheet_95
+    21300116: MiscSpriteSheet_96
+    21300118: MiscSpriteSheet_97
+    21300120: MiscSpriteSheet_98
+    21300122: MiscSpriteSheet_99
+    21300124: MiscSpriteSheet_100
+    21300126: MiscSpriteSheet_101
+    21300128: MiscSpriteSheet_102
+    21300130: MiscSpriteSheet_103
+    21300132: MiscSpriteSheet_104
+    21300134: MiscSpriteSheet_105
+    21300136: MiscSpriteSheet_106
+    21300138: MiscSpriteSheet_107
+    21300140: MiscSpriteSheet_108
+    21300142: MiscSpriteSheet_109
+    21300144: MiscSpriteSheet_110
+    21300146: MiscSpriteSheet_111
+    21300148: MiscSpriteSheet_112
+    21300150: MiscSpriteSheet_113
+    21300152: MiscSpriteSheet_114
+    21300154: MiscSpriteSheet_115
+    21300156: MiscSpriteSheet_116
+    21300158: MiscSpriteSheet_117
+    21300160: MiscSpriteSheet_118
+    21300162: MiscSpriteSheet_119
+    21300164: MiscSpriteSheet_120
+    21300166: MiscSpriteSheet_121
+    21300168: MiscSpriteSheet_122
+    21300170: MiscSpriteSheet_123
+    21300172: MiscSpriteSheet_124
+    21300174: MiscSpriteSheet_125
+    21300176: MiscSpriteSheet_126
+    21300178: MiscSpriteSheet_127
+    21300180: MiscSpriteSheet_128
+    21300182: MiscSpriteSheet_129
+    21300184: MiscSpriteSheet_130
+    21300186: MiscSpriteSheet_131
+    21300188: MiscSpriteSheet_132
+    21300190: MiscSpriteSheet_133
+    21300192: MiscSpriteSheet_134
+    21300194: MiscSpriteSheet_3
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 16
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MiscSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 367
+        width: 93
+        height: 121
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 365
+        width: 95
+        height: 123
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 388
+        width: 188
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 388
+        width: 86
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 455
+        width: 149
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 336
+        width: 79
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 335
+        width: 86
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 358
+        width: 67
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 357
+        width: 66
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 351
+        width: 67
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 349
+        width: 60
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 344
+        width: 67
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 341
+        width: 54
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 337
+        width: 67
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 333
+        width: 48
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 306
+        width: 86
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 330
+        width: 67
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 325
+        width: 42
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 323
+        width: 67
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_51
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 317
+        width: 36
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 316
+        width: 67
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 309
+        width: 30
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 301
+        width: 24
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_61
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 261
+        width: 18
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_62
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 286
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_63
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 286
+        width: 9
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_64
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 286
+        width: 3
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_65
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 260
+        width: 13
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_66
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 260
+        width: 10
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_67
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 260
+        width: 10
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_68
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 260
+        width: 10
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_69
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 296
+        width: 25
+        height: 3
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_70
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 287
+        width: 7
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_71
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 287
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_72
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 287
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_73
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 287
+        width: 9
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_74
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 287
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_75
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 287
+        width: 8
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_76
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 289
+        width: 10
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_77
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 289
+        width: 11
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_78
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 289
+        width: 13
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_79
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 262
+        width: 42
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_80
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 262
+        width: 42
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_81
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 262
+        width: 51
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_82
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 262
+        width: 51
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_83
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 262
+        width: 42
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_84
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 276
+        width: 8
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_85
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 228
+        width: 30
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_86
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 230
+        width: 30
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_87
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 230
+        width: 30
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_88
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 198
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_89
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 198
+        width: 30
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_90
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 198
+        width: 30
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_91
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 198
+        width: 30
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_92
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 198
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_93
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 198
+        width: 30
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_94
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 198
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_95
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 199
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_96
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 199
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_97
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 167
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_98
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 167
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_99
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 167
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_100
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 167
+        width: 30
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_101
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 167
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_102
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 167
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_103
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 167
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_104
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 167
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_105
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 167
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_106
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 136
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_107
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 136
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_108
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 136
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_109
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 136
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_110
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 136
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_111
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 136
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_112
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 136
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_113
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 136
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_114
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 136
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_115
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 14
+        width: 113
+        height: 120
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_116
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 14
+        width: 90
+        height: 119
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_117
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 28
+        width: 105
+        height: 105
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_118
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 28
+        width: 57
+        height: 105
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_120
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 4
+        width: 60
+        height: 129
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_121
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 4
+        width: 60
+        height: 129
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_122
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 103
+        width: 76
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_123
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 103
+        width: 76
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_124
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 116
+        width: 31
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_125
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 116
+        width: 31
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 265
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
