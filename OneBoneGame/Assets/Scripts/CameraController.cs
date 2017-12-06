@@ -4,19 +4,35 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour {
 
-    public Transform player;
-    private Transform camTrans;
+    public Transform playerBon;
+	public Transform playerBob;
+	private Transform camTrans;
+	int x;
 
     // Use this for initialization
     void Start()
     {
         camTrans = this.GetComponent<Transform>();
+		x = 1;
     }
 
     // Update is called once per frame
     void Update()
     {
-        camTrans.GetComponent<Camera>().fieldOfView = 70;
-        camTrans.position = new Vector3(player.position.x, player.position.y, camTrans.position.z);
+        
+
+		if (Input.GetKeyDown(KeyCode.I))
+		{
+			x *=-1;
+		}
+		if (x > 0)
+		{
+			camTrans.position = new Vector3(playerBon.position.x, playerBon.position.y, camTrans.position.z);
+		}
+		else if (x < 0)
+		{
+			camTrans.position = new Vector3(playerBob.position.x, playerBob.position.y, camTrans.position.z);
+		}
+
     }
 }

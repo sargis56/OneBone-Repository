@@ -1,0 +1,61 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class shoot2 : MonoBehaviour
+{
+
+	//public variables
+	public GameObject bullet;
+	public List<Transform> direction;
+	public float bulletSpeed;
+
+	//input direction
+	Transform currnetDirection;
+
+
+	// Use this for initialization
+	void Start()
+	{
+
+	}
+
+	// Update is called once per frame
+	void Update()
+	{
+
+		if (Input.GetKey(KeyCode.A) && Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D) && Input.GetKey(KeyCode.S)) //down-left  down-right
+		{
+			currnetDirection = direction[4];
+
+		}
+		else if (Input.GetKey(KeyCode.A) && Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.D) && Input.GetKey(KeyCode.W)) //up-left up-right
+		{
+			currnetDirection = direction[3];
+
+		}
+		else if (Input.GetKey(KeyCode.S)) //down
+		{
+			currnetDirection = direction[1];
+
+		}
+		else if (Input.GetKey(KeyCode.W)) //up
+		{
+			currnetDirection = direction[0];
+		}
+		else //default to last horizontal direction if no buttons is pressed
+		{
+			currnetDirection = direction[2];
+		}
+
+
+
+		if (Input.GetKeyUp(KeyCode.Mouse0)) //shooting a bullet using left click
+		{
+			GameObject bullets = Instantiate(bullet, this.transform.position, Quaternion.identity) as GameObject;
+			Vector2 forceVec = currnetDirection.transform.position - this.transform.position;
+			forceVec *= bulletSpeed;
+			bullets.GetComponent<Rigidbody2D>().AddForce(forceVec,ForceMode2D.Impulse);
+		}
+	}
+}
