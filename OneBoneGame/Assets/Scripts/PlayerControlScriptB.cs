@@ -15,6 +15,8 @@ public class PlayerControlScriptB : MonoBehaviour {
     private Rigidbody2D rb;
     private SpriteRenderer spr;
     private Animator anim;
+
+    public int isBonnie = 1;
     // Use this for initialization
     void Start () {
         rb = GetComponent<Rigidbody2D>();
@@ -54,6 +56,8 @@ public class PlayerControlScriptB : MonoBehaviour {
         if (Input.GetButtonDown("Jump") && grounded)
             rb.velocity = new Vector2(rb.velocity.x, maxJump);
 
+        if (Input.GetKey(KeyCode.I))
+            isBonnie *= -1;
         
     }
 

@@ -18,11 +18,13 @@ public class playerController : MonoBehaviour {
 	float timer;
 
 	Rigidbody2D rBody;
+    Animator anim;
 
 
 	// Use this for initialization
 	void Start () {
 		rBody = this.GetComponent<Rigidbody2D>();
+        anim = this.GetComponent<Animator>();
 		isBonnie = 1;
 	}
 
@@ -30,9 +32,15 @@ public class playerController : MonoBehaviour {
 	{
 		grounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius, whatIsGround); //check if groundcheck overlap with the ground
 		float horizMove = Input.GetAxis("Horizontal");
+        if (!grounded && !Input.GetButton("Jump"))
+            rBody.velocity = new Vector2(rBody.velocity.x, rBody.velocity.y - 0.5f);
 
-		rBody.velocity = new Vector2(horizMove * speed, rBody.velocity.y); // basic movement
-	
+        rBody.velocity = new Vector2(horizMove * speed, rBody.velocity.y); // basic movement
+        anim.SetFloat("Speed", Mathf.Abs(horizMove));
+        anim.SetFloat("VerticalSpeed", rBody.velocity.y);
+        anim.SetBool("Grounded", grounded);
+
+
 	}
 
 	// Update is called once per frame
@@ -51,7 +59,8 @@ public class playerController : MonoBehaviour {
 		if ((grounded) && Input.GetButtonDown("Jump")) //checking for the input and if groundcheck is overlapping with the ground
 		{
 
-			rBody.AddForce(new Vector2(0, jumpForce));
+            //rBody.AddForce(new Vector2(0, jumpForce));
+            rBody.velocity = new Vector2(rBody.velocity.x, jumpForce);
 
 		}
 
