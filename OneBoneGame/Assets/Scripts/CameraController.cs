@@ -21,7 +21,7 @@ public class CameraController : MonoBehaviour {
     {
         
 
-		if (Input.GetKeyDown(KeyCode.I))
+		if (Input.GetKeyDown(KeyCode.Tab))
 		{
 			x *=-1;
 		}

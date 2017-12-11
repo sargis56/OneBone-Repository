@@ -49,7 +49,7 @@ public class playerController : MonoBehaviour {
 
 
 		//this is a temp
-		if (Input.GetKey(KeyCode.I))
+		if (Input.GetKey(KeyCode.Tab))
 		{
 			isBonnie *= -1;
 		}

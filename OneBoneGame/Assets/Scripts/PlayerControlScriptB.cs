@@ -56,7 +56,7 @@ public class PlayerControlScriptB : MonoBehaviour {
         if (Input.GetButtonDown("Jump") && grounded)
             rb.velocity = new Vector2(rb.velocity.x, maxJump);
 
-        if (Input.GetKey(KeyCode.I))
+        if (Input.GetKey(KeyCode.Tab))
             isBonnie *= -1;
         
     }

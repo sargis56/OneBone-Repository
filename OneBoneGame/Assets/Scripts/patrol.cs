@@ -4,26 +4,41 @@ using UnityEngine;
 
 public class patrol : MonoBehaviour {
 
-    private Rigidbody2D rb;
-    public double moveLeft;
-    public double moveRight;
-    GameObject gameControllerObject;
-    public int speed = 1;
+	private Rigidbody2D rb;
+	public double moveLeft;
+	public double moveRight;
+	GameObject gameControllerObject;
+	public int speed = 1;
 
-    void Start()
+	//public Transform groundCheck;
+	//public LayerMask whatIsGround; //layers of that player can jump on (this case everything)
+	//bool grounded = false;
+	//float groundRadius = 0.1f; //radius of the groundcheck
+
+
+	void Start()
     {
 
         rb = GetComponent<Rigidbody2D>();
     }
 
-    void OnTriggerEnter2D(Collider2D other)
-    {
+	private void OnTriggerEnter2D(Collider2D other)
+	{
+		Vector2 forceVec = this.transform.position - other.transform.position;
+		forceVec *= 20;
+		if (other.tag == "bonnie")
+		{
+			this.GetComponent<Rigidbody2D>().AddForce(forceVec);
+		}
+	}
 
-    }
 
-    void Update()
+		void Update()
     {
-        if (this.gameObject.tag == "enemy")
+		//grounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius, whatIsGround); //check if groundcheck overlap with the ground
+
+
+		if (this.gameObject.tag == "enemy")
         {
             if (rb.position.x > moveRight)
             {
@@ -40,5 +55,9 @@ public class patrol : MonoBehaviour {
         {
             Debug.Log("Cannot find Game Object");
         }
+
+
     }
+
+
 }

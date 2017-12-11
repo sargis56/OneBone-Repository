@@ -8,6 +8,7 @@ public class shoot2 : MonoBehaviour
 	//public variables
 	public GameObject bullet;
 	public List<Transform> direction;
+	public Transform center;
 	public float bulletSpeed;
 
 	//input direction
@@ -52,8 +53,8 @@ public class shoot2 : MonoBehaviour
 
 		if (Input.GetKeyUp(KeyCode.Mouse0)) //shooting a bullet using left click
 		{
-			GameObject bullets = Instantiate(bullet, this.transform.position, Quaternion.identity) as GameObject;
-			Vector2 forceVec = currnetDirection.transform.position - this.transform.position;
+			GameObject bullets = Instantiate(bullet, center.transform.position, Quaternion.identity) as GameObject;
+			Vector2 forceVec = currnetDirection.transform.position - center.transform.position;
 			forceVec *= bulletSpeed;
 			bullets.GetComponent<Rigidbody2D>().AddForce(forceVec,ForceMode2D.Impulse);
 		}
