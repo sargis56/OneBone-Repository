@@ -12,6 +12,7 @@ public class playerController : MonoBehaviour {
 	public LayerMask whatIsGround; //layers of that player can jump on (this case everything)
 	public GameObject sword;
 
+	public bool attacking;
 	public int isBonnie;
 	//ground check
 	bool grounded = false;
@@ -76,6 +77,7 @@ public class playerController : MonoBehaviour {
 			if (this.tag == "bonnie")
 			{
 				sword.SetActive(true);
+				attacking = true;
 
 			}
 			
@@ -83,6 +85,8 @@ public class playerController : MonoBehaviour {
 		else
 		{
 			sword.SetActive(false);
+			attacking = false;
+
 		}
 		
 

@@ -57,6 +57,7 @@ GameObject:
   - component: {fileID: 61752369055612792}
   - component: {fileID: 114064928029446484}
   - component: {fileID: 95229944243450734}
+  - component: {fileID: 114124879176040792}
   m_Layer: 0
   m_Name: Bonnie-OLDtoNew(Alpha)_0
   m_TagString: bonnie
@@ -252,6 +253,17 @@ MonoBehaviour:
     m_Bits: 256
   sword: {fileID: 1833467425522560}
   isBonnie: 0
+--- !u!114 &114124879176040792
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1947047144810324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 480ee38b6aa518a42b9bbc4b556998fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212425160672562626
 SpriteRenderer:
   m_ObjectHideFlags: 1

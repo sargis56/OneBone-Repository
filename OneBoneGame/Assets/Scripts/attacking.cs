@@ -4,12 +4,15 @@ using UnityEngine;
 
 public class attacking : MonoBehaviour {
 
-	private void OnTriggerEnter2D(Collider2D other)
+	private void OnCollisionEnter2D(Collision2D collision)
 	{
-		if (other.tag == "enemy")
+		if (collision.gameObject.tag == "enemy")
 		{
-			Destroy(other.gameObject);
+			Destroy(collision.gameObject);
 		}
 
 	}
+	
+
+	
 }
