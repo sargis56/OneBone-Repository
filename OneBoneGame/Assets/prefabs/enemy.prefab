@@ -106,7 +106,7 @@ GameObject:
   - component: {fileID: 4706296693887778}
   m_Layer: 0
   m_Name: enemy
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -157,7 +157,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1396231981965428}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 1.5184524, y: -0.3749218, z: 0}
   m_LocalScale: {x: 2.585298, y: 2.585298, z: 2.585298}
   m_Children:
   - {fileID: 4482681610998834}
@@ -171,7 +171,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1606964323383520}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.85, y: -1.447, z: 0}
+  m_LocalPosition: {x: -72.99, y: -1.9353025, z: 1}
   m_LocalScale: {x: 0.3868026, y: 0.3868026, z: 0.3868026}
   m_Children:
   - {fileID: 4256793480265336}
@@ -352,6 +352,7 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 256
+  damage: 0
 --- !u!114 &114599937747791692
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -365,11 +366,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   point1: {fileID: 4655616988160056}
   point2: {fileID: 4772551205836876}
-  speed: 2
+  speed: -2
   groundCheck: {fileID: 4482681610998834}
   whatIsGround:
     serializedVersion: 2
     m_Bits: 256
+  damage: 1
 --- !u!212 &212001889035374128
 SpriteRenderer:
   m_ObjectHideFlags: 1

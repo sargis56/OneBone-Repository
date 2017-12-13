@@ -21,12 +21,25 @@ public class playerController : MonoBehaviour {
 	Rigidbody2D rBody;
     Animator anim;
 
+	public int hp;
+
+	public Transform currentSpawn;
+	public GameObject otherPlayer;
+
 
 	// Use this for initialization
 	void Start () {
 		rBody = this.GetComponent<Rigidbody2D>();
         anim = this.GetComponent<Animator>();
-		isBonnie = 1;
+		if (this.tag == "bonnie")
+		{
+			isBonnie = 1;
+		}
+		else
+		{
+			isBonnie = -1;
+		}
+
 	}
 
 	private void FixedUpdate()
@@ -86,9 +99,16 @@ public class playerController : MonoBehaviour {
 		{
 			sword.SetActive(false);
 			attacking = false;
-
 		}
-		
+
+
+		if (hp <= 0)
+		{
+
+			this.transform.position = currentSpawn.position;
+			this.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
+			hp = 10;
+		}
 
 		
 
@@ -103,9 +123,27 @@ public class playerController : MonoBehaviour {
 		}
 
 
+	}
+
+
+	private void OnCollisionEnter2D(Collision2D collision)
+	{
+		if (collision.gameObject.tag == "enemy" && attacking == false)
+		{
+			hp -= collision.gameObject.GetComponent<patrol>().damage;
+			Debug.Log(hp);
+
+		}
+	}
+
+	private void OnTriggerEnter2D(Collider2D other)
+	{
+		if (other.tag == "spawn")
+		{
+			currentSpawn = other.transform;
+			otherPlayer.GetComponent<playerController>().currentSpawn = other.transform;
+		}
+
 
 	}
-		
-
-
 }

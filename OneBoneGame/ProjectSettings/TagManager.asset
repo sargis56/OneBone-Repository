@@ -7,6 +7,8 @@ TagManager:
   - enemy
   - bonnie
   - Ground
+  - spawn
+  - bobbie
   layers:
   - Default
   - TransparentFX
@@ -17,8 +19,8 @@ TagManager:
   - 
   - 
   - Ground
-  - 
-  - 
+  - bullet
+  - player
   - 
   - 
   - 

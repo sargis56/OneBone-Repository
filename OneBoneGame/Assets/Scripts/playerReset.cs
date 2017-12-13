@@ -18,7 +18,7 @@ public class playerReset : MonoBehaviour {
 	private void OnTriggerEnter2D(Collider2D other)
 	{
 
-		if (other.tag == "Player" || other.tag == "bonnie")
+		if (other.tag == "bobbie" || other.tag == "bonnie")
 		{
 			other.transform.position = spawnPoint.position;
 			other.GetComponent<Rigidbody2D>().velocity = new Vector2 (0,0);

@@ -26,6 +26,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1334594512009618
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4608530553548500}
+  m_Layer: 0
+  m_Name: center
+  m_TagString: Untagged
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1353786870610320
 GameObject:
   m_ObjectHideFlags: 0
@@ -88,9 +103,9 @@ GameObject:
   - component: {fileID: 114582233577827734}
   - component: {fileID: 114594528597006372}
   - component: {fileID: 95506058159110784}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bobby(Alpha)
-  m_TagString: Untagged
+  m_TagString: bobbie
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -147,7 +162,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1847127013823612}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.1899996, z: 0}
+  m_LocalPosition: {x: 0, y: 2, z: 0}
   m_LocalScale: {x: 12.864077, y: 11.878113, z: 3.1751757}
   m_Children: []
   m_Father: {fileID: 4805930486469080}
@@ -173,7 +188,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1638755752898718}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2, y: 6.1899996, z: 0}
+  m_LocalPosition: {x: -2, y: 6, z: 0}
   m_LocalScale: {x: 12.864077, y: 11.878113, z: 3.1751757}
   m_Children: []
   m_Father: {fileID: 4805930486469080}
@@ -186,7 +201,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1686325750618374}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 6.19, z: 0}
+  m_LocalPosition: {x: 0, y: 6, z: 0}
   m_LocalScale: {x: 12.864077, y: 11.878113, z: 3.1751757}
   m_Children: []
   m_Father: {fileID: 4805930486469080}
@@ -205,6 +220,19 @@ Transform:
   m_Father: {fileID: 4805930486469080}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4608530553548500
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1334594512009618}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 4, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4805930486469080}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4805930486469080
 Transform:
   m_ObjectHideFlags: 1
@@ -222,6 +250,7 @@ Transform:
   - {fileID: 4216128640844622}
   - {fileID: 4945001524198598}
   - {fileID: 4358989936018600}
+  - {fileID: 4608530553548500}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -232,7 +261,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1353786870610320}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2, y: 2.1899996, z: 0}
+  m_LocalPosition: {x: -2, y: 2, z: 0}
   m_LocalScale: {x: 12.864077, y: 11.878113, z: 3.1751757}
   m_Children: []
   m_Father: {fileID: 4805930486469080}
@@ -245,7 +274,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1207035794801604}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2, y: 4.1899996, z: 0}
+  m_LocalPosition: {x: -2, y: 4, z: 0}
   m_LocalScale: {x: 12.864077, y: 11.878113, z: 3.1751757}
   m_Children: []
   m_Father: {fileID: 4805930486469080}
@@ -265,7 +294,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 8
+  m_GravityScale: 5
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -380,13 +409,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2.5
   groundRadius: 0.1
-  jumpForce: 19
+  jumpForce: 10
   groundCheck: {fileID: 4540962731764776}
   whatIsGround:
     serializedVersion: 2
     m_Bits: 256
   sword: {fileID: 1382458620106466}
+  attacking: 0
   isBonnie: 0
+  hp: 10
+  currentSpawn: {fileID: 0}
+  otherPlayer: {fileID: 0}
 --- !u!114 &114594528597006372
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -405,7 +438,8 @@ MonoBehaviour:
   - {fileID: 4945001524198598}
   - {fileID: 4216128640844622}
   - {fileID: 4813905387465860}
-  bulletSpeed: 500
+  center: {fileID: 4608530553548500}
+  bulletSpeed: 50
 --- !u!114 &114877813888610932
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -457,8 +491,6 @@ SpriteRenderer:
   m_Size: {x: 1.62, y: 1.71}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212863404460489474
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -499,5 +531,3 @@ SpriteRenderer:
   m_Size: {x: 4.8, y: 6.1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0

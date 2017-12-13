@@ -9,10 +9,10 @@ public class attacking : MonoBehaviour {
 		if (collision.gameObject.tag == "enemy")
 		{
 			Destroy(collision.gameObject);
+			
 		}
-
-	}
 	
 
+	}
 	
 }

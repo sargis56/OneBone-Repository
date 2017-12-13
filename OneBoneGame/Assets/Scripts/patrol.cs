@@ -18,6 +18,8 @@ public class patrol : MonoBehaviour {
 	bool grounded = false;
 	float groundRadius = 0.1f; //radius of the groundcheck
 
+	public int damage;
+
 	float time; 
 
 	Vector2 forceVec;
@@ -39,7 +41,7 @@ public class patrol : MonoBehaviour {
 		forceVec *= -5f;
 
 
-		if (other.tag == "bonnie")
+		if (other.tag == "bonnie" || other.tag == "bobbie")
 		{
 			playerNear = true;
 			if (grounded && time < Time.time)
@@ -59,7 +61,7 @@ public class patrol : MonoBehaviour {
 	{
 
 
-		if (collision.gameObject.tag == "bonnie")
+		if (collision.gameObject.tag == "bonnie" || collision.gameObject.tag == "bobbie")
 		{
 			this.GetComponent<Rigidbody2D>().velocity = new Vector2(-this.GetComponent<Rigidbody2D>().velocity.x*1.5f, 7f);
 
