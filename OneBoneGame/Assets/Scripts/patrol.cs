@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class patrol : MonoBehaviour {
+public class patrol : enemy {
 
 	private Rigidbody2D rb;
 	public Transform point1;
@@ -18,7 +18,6 @@ public class patrol : MonoBehaviour {
 	bool grounded = false;
 	float groundRadius = 0.1f; //radius of the groundcheck
 
-	public int damage;
 
 	float time; 
 
@@ -68,7 +67,9 @@ public class patrol : MonoBehaviour {
 			if (collision.gameObject.GetComponent<playerController>().attacking == false)
 			{
 				collision.gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(-(collision.gameObject.GetComponent<Rigidbody2D>().velocity.x * 2), 7f);
+				
 			}
+			hp -= 1;
 
 		}
 		

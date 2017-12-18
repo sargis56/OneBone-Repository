@@ -8,8 +8,12 @@ public class attacking : MonoBehaviour {
 	{
 		if (collision.gameObject.tag == "enemy")
 		{
-			Destroy(collision.gameObject);
-			
+			if (collision.gameObject.GetComponent<enemy>().hp <= 0)
+			{
+				Destroy(collision.gameObject);
+
+			}
+			Debug.Log(collision.gameObject.GetComponent<enemy>().hp);
 		}
 	
 

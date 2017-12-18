@@ -130,7 +130,8 @@ public class playerController : MonoBehaviour {
 	{
 		if (collision.gameObject.tag == "enemy" && attacking == false)
 		{
-			hp -= collision.gameObject.GetComponent<patrol>().damage;
+			hp -= collision.gameObject.GetComponent<enemy>().damage;
+
 			Debug.Log(hp);
 
 		}
