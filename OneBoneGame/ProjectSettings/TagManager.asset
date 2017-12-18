@@ -9,6 +9,8 @@ TagManager:
   - Ground
   - spawn
   - bobbie
+  - bullet
+  - sword
   layers:
   - Default
   - TransparentFX
@@ -21,8 +23,8 @@ TagManager:
   - Ground
   - bullet
   - player
-  - 
-  - 
+  - enemy
+  - enemyBullets
   - 
   - 
   - 

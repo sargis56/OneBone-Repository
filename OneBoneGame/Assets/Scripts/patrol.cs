@@ -60,11 +60,11 @@ public class patrol : enemy {
 	{
 
 
-		if (collision.gameObject.tag == "bonnie" || collision.gameObject.tag == "bobbie")
+		if (collision.gameObject.tag == "bonnie" || collision.gameObject.tag == "bobbie" || collision.gameObject.tag == "bullet")
 		{
 			this.GetComponent<Rigidbody2D>().velocity = new Vector2(-this.GetComponent<Rigidbody2D>().velocity.x*1.5f, 7f);
 
-			if (collision.gameObject.GetComponent<playerController>().attacking == false)
+			if (collision.gameObject.tag == "sword")
 			{
 				collision.gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(-(collision.gameObject.GetComponent<Rigidbody2D>().velocity.x * 2), 7f);
 				

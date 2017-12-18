@@ -13,7 +13,7 @@ public class attacking : MonoBehaviour {
 				Destroy(collision.gameObject);
 
 			}
-			Debug.Log(collision.gameObject.GetComponent<enemy>().hp);
+			Debug.Log("enemy : " +collision.gameObject.GetComponent<enemy>().hp);
 		}
 	
 

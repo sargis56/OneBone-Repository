@@ -128,7 +128,7 @@ public class playerController : MonoBehaviour {
 
 	private void OnCollisionEnter2D(Collision2D collision)
 	{
-		if (collision.gameObject.tag == "enemy" && attacking == false)
+		if ((collision.gameObject.tag == "enemy" )&& attacking == false)
 		{
 			hp -= collision.gameObject.GetComponent<enemy>().damage;
 
