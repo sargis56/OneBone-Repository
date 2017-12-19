@@ -1,12 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class playerSwitch : MonoBehaviour {
 
     public GameObject player1;
     public GameObject player2;
     public Vector3 moveAwayPos;
+
+	public Image imageLifebarBackground;
+	public Sprite lifebarBackgroundBonnie;
+	public Sprite lifebarBackgroundBazooka;
 
     bool player1Active = true;
 
@@ -50,6 +55,8 @@ public class playerSwitch : MonoBehaviour {
                 player1.transform.position = moveAwayPos;
                 player1Active = false;
 
+				imageLifebarBackground.sprite = lifebarBackgroundBazooka;
+
             }
             else
             {
@@ -70,6 +77,8 @@ public class playerSwitch : MonoBehaviour {
                 player2.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePosition;
                 player2.transform.position = moveAwayPos;
                 player1Active = true;
+
+				imageLifebarBackground.sprite = lifebarBackgroundBonnie;
             }
         }
     }

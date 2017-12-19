@@ -1,6 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
+
 [System.Serializable]
 public class playerController : MonoBehaviour {
 	//public varriables
@@ -12,6 +15,25 @@ public class playerController : MonoBehaviour {
 	public LayerMask whatIsGround; //layers of that player can jump on (this case everything)
 	public GameObject sword;
 
+	public Image imageLifebar;
+	public Sprite spriteLifebar60;
+	public Sprite spriteLifebar50;
+	public Sprite spriteLifebar40;
+	public Sprite spriteLifebar30;
+	public Sprite spriteLifebar20;
+	public Sprite spriteLifebar10;
+	public Sprite spriteLifebar0;
+
+	public Image imageLives;
+	public Sprite spriteLives8;
+	public Sprite spriteLives7;
+	public Sprite spriteLives6;
+	public Sprite spriteLives5;
+	public Sprite spriteLives4;
+	public Sprite spriteLives3;
+	public Sprite spriteLives2;
+	public Sprite spriteLives1;
+
 	public bool attacking;
 	public int isBonnie;
 	//ground check
@@ -22,6 +44,7 @@ public class playerController : MonoBehaviour {
     Animator anim;
 
 	public int hp;
+	private int lives;
 
 	public Transform currentSpawn;
 	public GameObject otherPlayer;
@@ -39,6 +62,8 @@ public class playerController : MonoBehaviour {
 		{
 			isBonnie = -1;
 		}
+
+		lives = 8;
 
 	}
 
@@ -107,7 +132,13 @@ public class playerController : MonoBehaviour {
 
 			this.transform.position = currentSpawn.position;
 			this.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
-			hp = 10;
+			hp = 60;
+
+			updateLife ();
+
+			lives--;
+
+			updateLives ();
 		}
 
 		
@@ -132,6 +163,10 @@ public class playerController : MonoBehaviour {
 		{
 			hp -= collision.gameObject.GetComponent<enemy>().damage;
 
+			updateLife ();
+
+			updateLives ();
+
 			Debug.Log(hp);
 
 		}
@@ -147,4 +182,73 @@ public class playerController : MonoBehaviour {
 
 
 	}
+
+	private void updateLife()
+	{
+
+		Debug.Log(hp);
+
+		switch (hp) 
+		{
+		case 60:
+			imageLifebar.sprite = spriteLifebar60;
+			break;
+		case 50:
+			imageLifebar.sprite = spriteLifebar50;
+			break;
+		case 40:
+			imageLifebar.sprite = spriteLifebar40;
+			break;
+		case 30:
+			imageLifebar.sprite = spriteLifebar30;
+			break;
+		case 20:
+			imageLifebar.sprite = spriteLifebar20;
+			break;
+		case 10:
+			imageLifebar.sprite = spriteLifebar10;
+			break;
+		case 0:
+			imageLifebar.sprite = spriteLifebar0;
+			break;
+		default:
+			imageLifebar.sprite = spriteLifebar60;
+			break;
+		}
+	}
+
+	private void updateLives()
+	{
+		switch (lives) 
+		{
+		case 8:
+			imageLives.sprite = spriteLives8;
+			break;
+		case 7:
+			imageLives.sprite = spriteLives7;
+			break;
+		case 6:
+			imageLives.sprite = spriteLives6;
+			break;
+		case 5:
+			imageLives.sprite = spriteLives5;
+			break;
+		case 4:
+			imageLives.sprite = spriteLives4;
+			break;
+		case 3:
+			imageLives.sprite = spriteLives3;
+			break;
+		case 2:
+			imageLives.sprite = spriteLives2;
+			break;
+		case 1:
+			imageLives.sprite = spriteLives1;
+			break;
+		default:
+			imageLives.sprite = spriteLives8;
+			break;
+		}
+	}
+		
 }
