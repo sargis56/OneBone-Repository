@@ -1,0 +1,1524 @@
+Initialize engine version: 5.6.1f1 (2860b30f0b54)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 940MX (ID=0x179c)
+    Vendor:   NVIDIA
+    VRAM:     2019 MB
+    Driver:   23.21.13.8800
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\123\Desktop\OneBone-Repository\OneBoneGame\OneBone_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\123\Desktop\OneBone-Repository\OneBoneGame\OneBone_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\123\Desktop\OneBone-Repository\OneBoneGame\OneBone_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\123\Desktop\OneBone-Repository\OneBoneGame\OneBone_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\123\Desktop\OneBone-Repository\OneBoneGame\OneBone_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\123\Desktop\OneBone-Repository\OneBoneGame\OneBone_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\123\Desktop\OneBone-Repository\OneBoneGame\OneBone_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\123\Desktop\OneBone-Repository\OneBoneGame\OneBone_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.031 seconds
+Platform assembly: C:\Users\123\Desktop\OneBone-Repository\OneBoneGame\OneBone_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\123\Desktop\OneBone-Repository\OneBoneGame\OneBone_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+The referenced script on this Behaviour (Game Object 'temp gun') is missing!
+ 
+(Filename:  Line: 1743)
+
+UnloadTime: 4.524550 ms
+50
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+50
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+40
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+40
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+30
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+30
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+20
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+20
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+10
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+10
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+60
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+enemy : -2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+50
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+50
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+40
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+40
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+30
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+30
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+20
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+20
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+10
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+10
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+60
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+50
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+50
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+40
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+40
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+The referenced script on this Behaviour (Game Object 'temp gun') is missing!
+ 
+(Filename:  Line: 1743)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 23.600307 ms
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 1112.
+Total: 1.984186 ms (FindLiveObjects: 0.234855 ms CreateObjectMapping: 0.149144 ms MarkObjects: 1.444624 ms  DeleteObjects: 0.153297 ms)
+
+50
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+50
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+40
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+40
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+38
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+38
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+36
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+36
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+34
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+34
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+enemy : 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+32
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+32
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+enemy : 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+30
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+30
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+28
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+28
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+enemy : -2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+26
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+26
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+24
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+24
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+enemy : 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+enemy : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+enemy : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+enemy : -2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+22
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+22
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+20
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+20
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+18
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+18
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+16
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+16
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+14
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+14
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+enemy : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+enemy : -3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+enemy : 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+-6
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+-6
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+60
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+59
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+59
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+enemy : 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+enemy : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+enemy : 3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+enemy : 2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+enemy : 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+49
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+49
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+39
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+39
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+29
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+29
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+19
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+19
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+9
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+9
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+The referenced script on this Behaviour (Game Object 'temp gun') is missing!
+ 
+(Filename:  Line: 1743)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.606983 ms
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 434.
+Total: 0.400613 ms (FindLiveObjects: 0.043799 ms CreateObjectMapping: 0.027185 ms MarkObjects: 0.285451 ms  DeleteObjects: 0.043421 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at patrol.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: a9bc -> priority: 1 
+  Thread -> id: a284 -> priority: 1 
