@@ -20,10 +20,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 581, y: 471}
+  m_MinSize: {x: 583, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 3476
+  controlID: 2906
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -120,10 +120,10 @@ MonoBehaviour:
     y: 0
     width: 1570
     height: 947
-  m_MinSize: {x: 304, y: 471}
+  m_MinSize: {x: 306, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 3441
+  controlID: 2907
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,10 +144,10 @@ MonoBehaviour:
     y: 0
     width: 1570
     height: 596
-  m_MinSize: {x: 304, y: 200}
-  m_MaxSize: {x: 8004, y: 4021}
+  m_MinSize: {x: 306, y: 221}
+  m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 3442
+  controlID: 2872
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -166,8 +166,8 @@ MonoBehaviour:
     y: 0
     width: 336
     height: 596
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -201,9 +201,9 @@ MonoBehaviour:
     height: 575
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 722f0000
-    m_LastClickedID: 12146
-    m_ExpandedIDs: 86f5ffffe2fbffff00000000722f0000
+    m_SelectedIDs: 9e9bffff
+    m_LastClickedID: 0
+    m_ExpandedIDs: 90adffffceb0ffffe6bcffffd6c0fffff2c6ffffe6c7ffffacceffff64dfffffeee4ffff98e5ffffb6e6ffffbce6ffff3ee9ffffa0f0ffffeaf3ffffaefaffffe2fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -222,7 +222,7 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 5}
     m_SearchString: 
   m_ExpandedScenes:
-  - Level_02
+  - Level_03
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -280,14 +280,14 @@ MonoBehaviour:
     width: 1230
     height: 575
   m_SceneLighting: 1
-  lastFramingTime: 267.9745880593859
+  lastFramingTime: 206.2638432435698
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 615, y: 279, z: 0}
+    m_Target: {x: 4.6307645, y: -0.28453463, z: 0}
     speed: 2
-    m_Value: {x: 615, y: 279, z: 0}
+    m_Value: {x: 4.6307645, y: -0.28453463, z: 0}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -314,9 +314,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 825.5215
+    m_Target: 9.016639
     speed: 2
-    m_Value: 825.5215
+    m_Value: 9.016639
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -418,18 +418,18 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scenes
+    - Assets/Physics
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Physics
   m_LastFoldersGridSize: 96
   m_LastProjectPath: C:\Users\123\Desktop\OneBone-Repository\OneBoneGame
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: b6270000
-    m_LastClickedID: 10166
+    m_SelectedIDs: 30ae0000
+    m_LastClickedID: 44592
     m_ExpandedIDs: 00000000d824000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -483,9 +483,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 722f0000
-    m_LastClickedInstanceID: 12146
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 9e9bffff
+    m_LastClickedInstanceID: -25698
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300000e26000072260000e4260000502b0000582f0000502f000058330000a632000004250000000000003c250000
     m_RenameOverlay:
       m_UserAcceptedRename: 0

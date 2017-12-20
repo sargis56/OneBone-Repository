@@ -2057,12 +2057,12 @@ Prefab:
         type: 2}
       propertyPath: imageLifebar
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1902898763}
     - target: {fileID: 114582233577827734, guid: 97dbe98e1b9cb034bac9613e5ff530b2,
         type: 2}
       propertyPath: imageLives
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 390631557}
     - target: {fileID: 114582233577827734, guid: 97dbe98e1b9cb034bac9613e5ff530b2,
         type: 2}
       propertyPath: otherPlayer
@@ -22402,142 +22402,22 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 60996759200397772, guid: cfff8efecf5e0ab49ab88ffdb8c794e7,
-        type: 2}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 114064928029446484, guid: cfff8efecf5e0ab49ab88ffdb8c794e7,
         type: 2}
-      propertyPath: hp
-      value: 60
-      objectReference: {fileID: 0}
-    - target: {fileID: 114064928029446484, guid: cfff8efecf5e0ab49ab88ffdb8c794e7,
-        type: 2}
-      propertyPath: otherPlayerSpawn
+      propertyPath: imageLifebar
       value: 
-      objectReference: {fileID: 1911740228}
+      objectReference: {fileID: 1902898763}
+    - target: {fileID: 114064928029446484, guid: cfff8efecf5e0ab49ab88ffdb8c794e7,
+        type: 2}
+      propertyPath: imageLives
+      value: 
+      objectReference: {fileID: 390631557}
     - target: {fileID: 114064928029446484, guid: cfff8efecf5e0ab49ab88ffdb8c794e7,
         type: 2}
       propertyPath: otherPlayer
       value: 
       objectReference: {fileID: 1911740228}
-    - target: {fileID: 114064928029446484, guid: cfff8efecf5e0ab49ab88ffdb8c794e7,
-        type: 2}
-      propertyPath: jumpForce
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 50233958518222058, guid: cfff8efecf5e0ab49ab88ffdb8c794e7,
-        type: 2}
-      propertyPath: m_GravityScale
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1833467425522560, guid: cfff8efecf5e0ab49ab88ffdb8c794e7, type: 2}
-      propertyPath: m_TagString
-      value: sword
-      objectReference: {fileID: 0}
-    - target: {fileID: 114064928029446484, guid: cfff8efecf5e0ab49ab88ffdb8c794e7,
-        type: 2}
-      propertyPath: imageLifebar
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 114064928029446484, guid: cfff8efecf5e0ab49ab88ffdb8c794e7,
-        type: 2}
-      propertyPath: imageLives
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 114064928029446484, guid: cfff8efecf5e0ab49ab88ffdb8c794e7,
-        type: 2}
-      propertyPath: spriteLifebar60
-      value: 
-      objectReference: {fileID: 21300050, guid: 708994dfa1e5bce41b27b993dd8bb95d,
-        type: 3}
-    - target: {fileID: 114064928029446484, guid: cfff8efecf5e0ab49ab88ffdb8c794e7,
-        type: 2}
-      propertyPath: spriteLifebar50
-      value: 
-      objectReference: {fileID: 21300052, guid: 708994dfa1e5bce41b27b993dd8bb95d,
-        type: 3}
-    - target: {fileID: 114064928029446484, guid: cfff8efecf5e0ab49ab88ffdb8c794e7,
-        type: 2}
-      propertyPath: spriteLifebar40
-      value: 
-      objectReference: {fileID: 21300054, guid: 708994dfa1e5bce41b27b993dd8bb95d,
-        type: 3}
-    - target: {fileID: 114064928029446484, guid: cfff8efecf5e0ab49ab88ffdb8c794e7,
-        type: 2}
-      propertyPath: spriteLifebar30
-      value: 
-      objectReference: {fileID: 21300056, guid: 708994dfa1e5bce41b27b993dd8bb95d,
-        type: 3}
-    - target: {fileID: 114064928029446484, guid: cfff8efecf5e0ab49ab88ffdb8c794e7,
-        type: 2}
-      propertyPath: spriteLifebar20
-      value: 
-      objectReference: {fileID: 21300058, guid: 708994dfa1e5bce41b27b993dd8bb95d,
-        type: 3}
-    - target: {fileID: 114064928029446484, guid: cfff8efecf5e0ab49ab88ffdb8c794e7,
-        type: 2}
-      propertyPath: spriteLifebar10
-      value: 
-      objectReference: {fileID: 21300060, guid: 708994dfa1e5bce41b27b993dd8bb95d,
-        type: 3}
-    - target: {fileID: 114064928029446484, guid: cfff8efecf5e0ab49ab88ffdb8c794e7,
-        type: 2}
-      propertyPath: spriteLifebar0
-      value: 
-      objectReference: {fileID: 21300062, guid: 708994dfa1e5bce41b27b993dd8bb95d,
-        type: 3}
-    - target: {fileID: 114064928029446484, guid: cfff8efecf5e0ab49ab88ffdb8c794e7,
-        type: 2}
-      propertyPath: spriteLives8
-      value: 
-      objectReference: {fileID: 21300076, guid: 708994dfa1e5bce41b27b993dd8bb95d,
-        type: 3}
-    - target: {fileID: 114064928029446484, guid: cfff8efecf5e0ab49ab88ffdb8c794e7,
-        type: 2}
-      propertyPath: spriteLives7
-      value: 
-      objectReference: {fileID: 21300078, guid: 708994dfa1e5bce41b27b993dd8bb95d,
-        type: 3}
-    - target: {fileID: 114064928029446484, guid: cfff8efecf5e0ab49ab88ffdb8c794e7,
-        type: 2}
-      propertyPath: spriteLives6
-      value: 
-      objectReference: {fileID: 21300064, guid: 708994dfa1e5bce41b27b993dd8bb95d,
-        type: 3}
-    - target: {fileID: 114064928029446484, guid: cfff8efecf5e0ab49ab88ffdb8c794e7,
-        type: 2}
-      propertyPath: spriteLives5
-      value: 
-      objectReference: {fileID: 21300066, guid: 708994dfa1e5bce41b27b993dd8bb95d,
-        type: 3}
-    - target: {fileID: 114064928029446484, guid: cfff8efecf5e0ab49ab88ffdb8c794e7,
-        type: 2}
-      propertyPath: spriteLives4
-      value: 
-      objectReference: {fileID: 21300068, guid: 708994dfa1e5bce41b27b993dd8bb95d,
-        type: 3}
-    - target: {fileID: 114064928029446484, guid: cfff8efecf5e0ab49ab88ffdb8c794e7,
-        type: 2}
-      propertyPath: spriteLives3
-      value: 
-      objectReference: {fileID: 21300070, guid: 708994dfa1e5bce41b27b993dd8bb95d,
-        type: 3}
-    - target: {fileID: 114064928029446484, guid: cfff8efecf5e0ab49ab88ffdb8c794e7,
-        type: 2}
-      propertyPath: spriteLives2
-      value: 
-      objectReference: {fileID: 21300072, guid: 708994dfa1e5bce41b27b993dd8bb95d,
-        type: 3}
-    - target: {fileID: 114064928029446484, guid: cfff8efecf5e0ab49ab88ffdb8c794e7,
-        type: 2}
-      propertyPath: spriteLives1
-      value: 
-      objectReference: {fileID: 21300074, guid: 708994dfa1e5bce41b27b993dd8bb95d,
-        type: 3}
-    m_RemovedComponents:
-    - {fileID: 114124879176040792, guid: cfff8efecf5e0ab49ab88ffdb8c794e7, type: 2}
+    m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cfff8efecf5e0ab49ab88ffdb8c794e7, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1911740228 stripped

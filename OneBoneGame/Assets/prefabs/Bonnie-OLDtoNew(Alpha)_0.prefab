@@ -39,7 +39,7 @@ GameObject:
   - component: {fileID: 114036754843885978}
   m_Layer: 0
   m_Name: katana
-  m_TagString: Untagged
+  m_TagString: sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -57,7 +57,6 @@ GameObject:
   - component: {fileID: 61752369055612792}
   - component: {fileID: 114064928029446484}
   - component: {fileID: 95229944243450734}
-  - component: {fileID: 114124879176040792}
   m_Layer: 0
   m_Name: Bonnie-OLDtoNew(Alpha)_0
   m_TagString: bonnie
@@ -120,7 +119,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 5
+  m_GravityScale: 2
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -135,7 +134,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -188,7 +187,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1947047144810324}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 735513320ca1c8245ae647bdc205415c, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -246,24 +245,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   groundRadius: 0.1
-  jumpForce: 14
+  jumpForce: 10
   groundCheck: {fileID: 4517849199555172}
   whatIsGround:
     serializedVersion: 2
     m_Bits: 256
   sword: {fileID: 1833467425522560}
+  imageLifebar: {fileID: 0}
+  spriteLifebar60: {fileID: 21300050, guid: 708994dfa1e5bce41b27b993dd8bb95d, type: 3}
+  spriteLifebar50: {fileID: 21300052, guid: 708994dfa1e5bce41b27b993dd8bb95d, type: 3}
+  spriteLifebar40: {fileID: 21300054, guid: 708994dfa1e5bce41b27b993dd8bb95d, type: 3}
+  spriteLifebar30: {fileID: 21300056, guid: 708994dfa1e5bce41b27b993dd8bb95d, type: 3}
+  spriteLifebar20: {fileID: 21300058, guid: 708994dfa1e5bce41b27b993dd8bb95d, type: 3}
+  spriteLifebar10: {fileID: 21300060, guid: 708994dfa1e5bce41b27b993dd8bb95d, type: 3}
+  spriteLifebar0: {fileID: 21300062, guid: 708994dfa1e5bce41b27b993dd8bb95d, type: 3}
+  imageLives: {fileID: 0}
+  spriteLives8: {fileID: 21300076, guid: 708994dfa1e5bce41b27b993dd8bb95d, type: 3}
+  spriteLives7: {fileID: 21300078, guid: 708994dfa1e5bce41b27b993dd8bb95d, type: 3}
+  spriteLives6: {fileID: 21300064, guid: 708994dfa1e5bce41b27b993dd8bb95d, type: 3}
+  spriteLives5: {fileID: 21300066, guid: 708994dfa1e5bce41b27b993dd8bb95d, type: 3}
+  spriteLives4: {fileID: 21300068, guid: 708994dfa1e5bce41b27b993dd8bb95d, type: 3}
+  spriteLives3: {fileID: 21300070, guid: 708994dfa1e5bce41b27b993dd8bb95d, type: 3}
+  spriteLives2: {fileID: 21300072, guid: 708994dfa1e5bce41b27b993dd8bb95d, type: 3}
+  spriteLives1: {fileID: 21300074, guid: 708994dfa1e5bce41b27b993dd8bb95d, type: 3}
+  attacking: 0
   isBonnie: 0
---- !u!114 &114124879176040792
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1947047144810324}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 480ee38b6aa518a42b9bbc4b556998fb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  hp: 60
+  currentSpawn: {fileID: 0}
+  otherPlayer: {fileID: 0}
 --- !u!212 &212425160672562626
 SpriteRenderer:
   m_ObjectHideFlags: 1
