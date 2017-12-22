@@ -7502,7 +7502,7 @@ MonoBehaviour:
   player1: {fileID: 1804123405}
   player2: {fileID: 1911740228}
   moveAwayPos: {x: -2, y: -3, z: 0}
-  imageLifebarBackground: {fileID: 0}
+  imageLifebarBackground: {fileID: 1682992338}
   lifebarBackgroundBonnie: {fileID: 21300046, guid: 708994dfa1e5bce41b27b993dd8bb95d,
     type: 3}
   lifebarBackgroundBazooka: {fileID: 21300048, guid: 708994dfa1e5bce41b27b993dd8bb95d,
