@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 708994dfa1e5bce41b27b993dd8bb95d
-timeCreated: 1513642702
+timeCreated: 1513830728
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -44,6 +44,7 @@ TextureImporter:
     21300074: Lives1
     21300076: Lives8
     21300078: Lives7
+    21300080: MiscSpriteSheet_23
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -676,6 +677,20 @@ TextureImporter:
         y: 350
         width: 47
         height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 387
+        width: 187
+        height: 102
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

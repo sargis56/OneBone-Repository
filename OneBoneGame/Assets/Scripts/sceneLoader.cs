@@ -9,7 +9,7 @@ public class sceneLoader : MonoBehaviour {
     public GameObject player1;
     public GameObject player2;
     public string nextLevel;
-    public int currentLevelEnd;
+    public float currentLevelEnd;
 
     // Use this for initialization
     void Start () {
