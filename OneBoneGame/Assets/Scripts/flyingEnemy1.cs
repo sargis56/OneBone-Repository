@@ -8,7 +8,7 @@ public class flyingEnemy1 : enemy {
 	public float speed;
 	public Rigidbody2D rb;
 	Vector3 x;
-	float time;
+
 	// Use this for initialization
 	void Start()
 	{
@@ -21,9 +21,9 @@ public class flyingEnemy1 : enemy {
 
 		Vector3 forceVec = (point.position + x) - this.transform.position;
 		float dist = Vector3.Distance(point.position, this.transform.position);
-		forceVec *= Mathf.Clamp(dist, 0, 1);
+		forceVec *= Mathf.Clamp(dist, 0, 100);
 		//rb.velocity = forceVec;
-		rb.velocity = Vector2.ClampMagnitude(rb.velocity, 10);
+		rb.velocity = Vector2.ClampMagnitude(rb.velocity,100);
 		this.GetComponent<Rigidbody2D>().AddForce(forceVec); //orbit??
 
 	}
@@ -40,7 +40,7 @@ public class flyingEnemy1 : enemy {
 				collision.gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(-(collision.gameObject.GetComponent<Rigidbody2D>().velocity.x * 2), 7f);
 
 			}
-			hp -= 1;
+			hp -= 2;
 
 		}
 

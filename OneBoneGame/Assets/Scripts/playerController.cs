@@ -161,8 +161,9 @@ public class playerController : MonoBehaviour {
 	{
 		if ((collision.gameObject.tag == "enemy" )&& attacking == false)
 		{
-			hp -= collision.gameObject.GetComponent<enemy>().damage;
 
+			hp -= collision.gameObject.GetComponent<enemy>().damage;
+			
 			updateLife ();
 
 			updateLives ();
