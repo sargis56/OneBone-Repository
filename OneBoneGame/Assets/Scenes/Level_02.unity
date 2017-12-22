@@ -42,7 +42,7 @@ RenderSettings:
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 9
+  serializedVersion: 11
   m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
@@ -54,7 +54,7 @@ LightmapSettings:
     m_EnableBakedLightmaps: 0
     m_EnableRealtimeLightmaps: 0
   m_LightmapEditorSettings:
-    serializedVersion: 8
+    serializedVersion: 9
     m_Resolution: 2
     m_BakeResolution: 40
     m_TextureWidth: 1024
@@ -87,7 +87,7 @@ LightmapSettings:
     m_PVRFilteringAtrousNormalSigma: 1
     m_PVRFilteringAtrousPositionSigma: 1
   m_LightingDataAsset: {fileID: 0}
-  m_ShadowMaskMode: 2
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -263,6 +263,8 @@ SpriteRenderer:
   m_Size: {x: 0.3, y: 0.31}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &89169635
 Transform:
   m_ObjectHideFlags: 0
@@ -624,6 +626,8 @@ SpriteRenderer:
   m_Size: {x: 0.3, y: 0.3}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &193194725
 Transform:
   m_ObjectHideFlags: 0
@@ -817,6 +821,8 @@ SpriteRenderer:
   m_Size: {x: 0.3, y: 0.31}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &225730195
 Transform:
   m_ObjectHideFlags: 0
@@ -1703,7 +1709,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player1: {fileID: 1804123405}
   player2: {fileID: 1911740228}
-  nextLevel: Scenes/Level_03
+  nextLevel: Scenes/Level_03_Boss
   currentLevelEnd: 66
 --- !u!1001 &603573304
 Prefab:
@@ -2269,6 +2275,8 @@ SpriteRenderer:
   m_Size: {x: 1.06, y: 1.05}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &952609381
 Transform:
   m_ObjectHideFlags: 0
@@ -3078,6 +3086,8 @@ SpriteRenderer:
   m_Size: {x: 0.3, y: 0.31}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &1566540171
 Transform:
   m_ObjectHideFlags: 0
@@ -3190,6 +3200,8 @@ SpriteRenderer:
   m_Size: {x: 0.25, y: 0.25}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 0
+  m_MaskInteraction: 0
 --- !u!4 &1603848429
 Transform:
   m_ObjectHideFlags: 0
@@ -3314,6 +3326,8 @@ SpriteRenderer:
   m_Size: {x: 1.06, y: 1.05}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &1652214203
 Transform:
   m_ObjectHideFlags: 0
