@@ -20,6 +20,7 @@ public class playerReset : MonoBehaviour {
 
 		if (other.tag == "bobbie" || other.tag == "bonnie")
 		{
+			other.gameObject.GetComponent<playerController> ().hp = 0;
 			other.transform.position = spawnPoint.position;
 			other.GetComponent<Rigidbody2D>().velocity = new Vector2 (0,0);
 			//Instantiate(player, spawnPoint.transform.position, spawnPoint.transform.rotation);
