@@ -10,6 +10,8 @@ public class shoot2 : MonoBehaviour
 	public List<Transform> direction;
 	public Transform center;
 	public float bulletSpeed;
+    private GameObject bobbie;
+    private playerController script;
 
 	//input direction
 	Transform currnetDirection;
@@ -18,7 +20,8 @@ public class shoot2 : MonoBehaviour
 	// Use this for initialization
 	void Start()
 	{
-
+        bobbie = GameObject.FindGameObjectWithTag("bobbie");
+        script = bobbie.GetComponent<playerController>();
 	}
 
 	// Update is called once per frame
@@ -27,29 +30,27 @@ public class shoot2 : MonoBehaviour
 
 		if (Input.GetKey(KeyCode.A) && Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D) && Input.GetKey(KeyCode.S)) //down-left  down-right
 		{
-			currnetDirection = direction[4];
-
-		}
-		else if (Input.GetKey(KeyCode.A) && Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.D) && Input.GetKey(KeyCode.W)) //up-left up-right
+            if (script.grounded == false)
+			    currnetDirection = direction[4];
+            else
+                currnetDirection = direction[2];
+        }
+        else if (Input.GetKey(KeyCode.S)) //down
 		{
+            if (script.grounded == false)
+                currnetDirection = direction[1];
+            else
+                currnetDirection = direction[2];
+        }
+		else if (Input.GetKey(KeyCode.A) && Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.D) && Input.GetKey(KeyCode.W)) //up-left up-right
 			currnetDirection = direction[3];
 
-		}
-		else if (Input.GetKey(KeyCode.S)) //down
-		{
-			currnetDirection = direction[1];
-
-		}
 		else if (Input.GetKey(KeyCode.W)) //up
-		{
 			currnetDirection = direction[0];
-		}
+		
 		else //default to last horizontal direction if no buttons is pressed
-		{
 			currnetDirection = direction[2];
-		}
-
-
+		
 
 		if (Input.GetKeyUp(KeyCode.Mouse0)) //shooting a bullet using left click
 		{

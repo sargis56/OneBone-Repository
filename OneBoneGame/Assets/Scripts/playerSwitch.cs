@@ -7,16 +7,22 @@ public class playerSwitch : MonoBehaviour {
 
     public GameObject player1;
     public GameObject player2;
-    public Vector3 moveAwayPos;
+    private Vector3 moveAwayPos;
 
 	public Image imageLifebarBackground;
 	public Sprite lifebarBackgroundBonnie;
 	public Sprite lifebarBackgroundBazooka;
+    Color player1AlphaChange;
+    Color player2AlphaChange;
 
     bool player1Active = true;
 
     // Use this for initialization
     void Start () {
+        player1AlphaChange = player1.GetComponent<SpriteRenderer>().color;
+        player1AlphaChange.a = 255f;
+        player2AlphaChange = player2.GetComponent<SpriteRenderer>().color;
+        player2AlphaChange.a = 0f;
         player2.transform.position = moveAwayPos;
         foreach (Behaviour childCompnent in player2.GetComponentsInChildren<Behaviour>())
         {
@@ -27,12 +33,18 @@ public class playerSwitch : MonoBehaviour {
 
     private void FixedUpdate()
     {
-
+        if (player1Active)
+            moveAwayPos = player1.transform.position;
+        else
+            moveAwayPos = player2.transform.position;
     }
 
     // Update is called once per frame
     void Update()
     {
+
+        player1.GetComponent<SpriteRenderer>().color = player1AlphaChange;
+        player2.GetComponent<SpriteRenderer>().color = player2AlphaChange;
         if (Input.GetKeyDown(KeyCode.Tab))
         {
             if (player1Active == true)
@@ -54,8 +66,9 @@ public class playerSwitch : MonoBehaviour {
                 player1.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePosition;
                 player1.transform.position = moveAwayPos;
                 player1Active = false;
-
-				imageLifebarBackground.sprite = lifebarBackgroundBazooka;
+                player1AlphaChange.a = 0f;
+                player2AlphaChange.a = 255f;
+                imageLifebarBackground.sprite = lifebarBackgroundBazooka;
 
             }
             else
@@ -77,8 +90,9 @@ public class playerSwitch : MonoBehaviour {
                 player2.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePosition;
                 player2.transform.position = moveAwayPos;
                 player1Active = true;
-
-				imageLifebarBackground.sprite = lifebarBackgroundBonnie;
+                player2AlphaChange.a = 0f;
+                player1AlphaChange.a = 255f;
+                imageLifebarBackground.sprite = lifebarBackgroundBonnie;
             }
         }
     }
