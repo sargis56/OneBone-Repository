@@ -13,7 +13,6 @@ public class playerController : MonoBehaviour {
 
 	public Transform groundCheck;
 	public LayerMask whatIsGround; //layers of that player can jump on (this case everything)
-	public GameObject sword;
 
 	public Image imageLifebar;
 	public Sprite spriteLifebar60;
@@ -35,10 +34,12 @@ public class playerController : MonoBehaviour {
 	public Sprite spriteLives1;
 
 	public bool attacking;
+    public GameObject attackEffect;
+    public BoxCollider2D hitBox;
 	public int isBonnie;
 	//ground check
-	bool grounded = false;
-	float timer;
+	public bool grounded = false;
+	float attackTimer;
 
 	Rigidbody2D rBody;
     Animator anim;
@@ -49,130 +50,148 @@ public class playerController : MonoBehaviour {
 	public Transform currentSpawn;
 	public GameObject otherPlayer;
 
+    public bool gotHit = false;
+    float gotHitTimer;
+    public bool crouching = false;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
 		rBody = this.GetComponent<Rigidbody2D>();
         anim = this.GetComponent<Animator>();
-		if (this.tag == "bonnie")
-		{
-			isBonnie = 1;
-		}
-		else
-		{
-			isBonnie = -1;
-		}
-
+        if (this.tag == "bonnie")
+            isBonnie = 1;
+        else
+            isBonnie = -1;
 		lives = 8;
-
 	}
-
-	private void FixedUpdate()
+	void FixedUpdate()
 	{
+        rBody.freezeRotation = true;
 		grounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius, whatIsGround); //check if groundcheck overlap with the ground
 		float horizMove = Input.GetAxis("Horizontal");
-        if (!grounded && !Input.GetButton("Jump"))
-            rBody.velocity = new Vector2(rBody.velocity.x, rBody.velocity.y - 0.5f);
+        float vertiMove = Input.GetAxis("Vertical");
 
-        rBody.velocity = new Vector2(horizMove * speed, rBody.velocity.y); // basic movement
+        if (!gotHit)
+        {
+            if (!grounded && !Input.GetButton("Jump"))
+                rBody.velocity = new Vector2(rBody.velocity.x, rBody.velocity.y - 0.5f); 
+        }
+        if (vertiMove < 0)
+            crouching = true;
+        else
+            crouching = false;
+
+        if (!gotHit || !crouching)
+        {
+            rBody.velocity = new Vector2(horizMove * speed, rBody.velocity.y); // basic movement
+
+            if (horizMove > 0 && gameObject.transform.rotation.y != 180)  //flipping sprite
+                transform.eulerAngles = new Vector2(0, 180);
+
+            else if (horizMove < 0 && gameObject.transform.rotation.y != 0)  //flipping sprite
+                transform.eulerAngles = new Vector2(0, 0);
+
+            if (isBonnie > 0)
+            {
+                if (attacking)
+                {
+
+                    hitBox.enabled = true;
+                    if (gameObject.transform.rotation.y == 0) // LEFT
+                        hitBox.offset = new Vector2(-0.15f, hitBox.offset.y);
+                    else if (gameObject.transform.rotation.y == 180) // RIGHT
+                        hitBox.offset = new Vector2(0.15f, hitBox.offset.y);
+                }
+                else
+                    hitBox.enabled = false;  
+            }
+        }
+
         anim.SetFloat("Speed", Mathf.Abs(horizMove));
+        anim.SetFloat("VerticalDirection", vertiMove);
         anim.SetFloat("VerticalSpeed", rBody.velocity.y);
         anim.SetBool("Grounded", grounded);
+        anim.SetBool("Attacking", attacking);
+        anim.SetBool("GotHit", gotHit);
+        anim.SetBool("Crouching", crouching);
 
-
-	}
-
+    }
 	// Update is called once per frame
 	void Update()
 	{
+        if (!gotHit)
+        {
+            //this is a temp
+            if (Input.GetKey(KeyCode.Tab))
+                isBonnie *= -1;
 
+            if ((grounded) && Input.GetButtonDown("Jump")) //checking for the input and if groundcheck is overlapping with the ground
+                rBody.velocity = new Vector2(rBody.velocity.x, jumpForce); //rBody.AddForce(new Vector2(0, jumpForce));
+            if (Input.GetButtonDown("Fire1"))
+                attacking = true;
+            if (attacking)
+                attackTimer += (1 * Time.deltaTime);
+            if (attacking && attackTimer > 0.3)
+                AttackDone();
+        }
+        if (gotHit)
+            gotHitTimer += (1 * Time.deltaTime);
+        if (gotHit && gotHitTimer > 0.3)
+            GotHitDone();
 
-		//this is a temp
-		if (Input.GetKey(KeyCode.Tab))
+        //if (Input.GetKeyDown(KeyCode.Mouse0))   //sword spawn
+        //	timer = Time.time + 1f;
+
+            //if (Time.time < timer)
+            //{
+            //	if (this.tag == "bonnie")
+            //	{
+            //		sword.SetActive(true);
+            //		attacking = true;
+            //	}
+            //}
+            //else
+            //{
+            //	sword.SetActive(false);
+            //	attacking = false;
+            //}
+
+        if (hp <= 0)
 		{
-			isBonnie *= -1;
-		}
-
-
-
-		if ((grounded) && Input.GetButtonDown("Jump")) //checking for the input and if groundcheck is overlapping with the ground
-		{
-
-            //rBody.AddForce(new Vector2(0, jumpForce));
-            rBody.velocity = new Vector2(rBody.velocity.x, jumpForce);
-
-		}
-
-
-		if (Input.GetKeyDown(KeyCode.Mouse0))   //sword spawn
-		{
-			timer = Time.time + 1f;
-		}
-
-
-		if (Time.time < timer)
-		{
-			if (this.tag == "bonnie")
-			{
-				sword.SetActive(true);
-				attacking = true;
-
-			}
-			
-		}
-		else
-		{
-			sword.SetActive(false);
-			attacking = false;
-		}
-
-
-		if (hp <= 0)
-		{
-
 			this.transform.position = currentSpawn.position;
 			this.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
 			hp = 60;
-
 			updateLife ();
-
 			lives--;
-
 			updateLives ();
 		}
-
-		
-
-
-		if (Input.GetKey(KeyCode.D))  //flipping sprite
-		{
-			transform.eulerAngles = new Vector3(0, -180, 0);
-		}
-		else if (Input.GetKey(KeyCode.A))  //flipping sprite
-		{
-			transform.eulerAngles = new Vector3(0, 0, 0);
-		}
-
-
 	}
-
 
 	private void OnCollisionEnter2D(Collision2D collision)
 	{
-		if ((collision.gameObject.tag == "enemy" )&& attacking == false)
+		if (collision.gameObject.tag == "enemy" && isBonnie > 0)
 		{
-
-			hp -= collision.gameObject.GetComponent<enemy>().damage;
-			
-			updateLife ();
-
-			updateLives ();
-
-			Debug.Log(hp);
-
+            if (!attacking && !gotHit)
+            {
+                hp -= collision.gameObject.GetComponent<enemy>().damage;
+                updateLife();
+                updateLives();
+                //Debug.Log(hp);
+                gotHit = true;
+                if (gameObject.transform.rotation.y == 0) //LEFT
+                    rBody.AddForce(transform.right*3f);
+                else if (gameObject.transform.rotation.y == 180) //RIGHT
+                    rBody.AddForce(transform.right * -3f);
+            }
+            else
+            {
+                Instantiate(attackEffect, collision.transform.position, Quaternion.identity);
+                if (collision.gameObject.GetComponent<enemy>().hp <= 0)
+                    Destroy(collision.gameObject);
+                Debug.Log("enemy : " + collision.gameObject.GetComponent<enemy>().hp);
+            }
 		}
 	}
-
 	private void OnTriggerEnter2D(Collider2D other)
 	{
 		if (other.tag == "spawn")
@@ -180,8 +199,6 @@ public class playerController : MonoBehaviour {
 			currentSpawn = other.transform;
 			otherPlayer.GetComponent<playerController>().currentSpawn = other.transform;
 		}
-
-
 	}
 
 	private void updateLife()
@@ -217,7 +234,6 @@ public class playerController : MonoBehaviour {
 			break;
 		}
 	}
-
 	private void updateLives()
 	{
 		switch (lives) 
@@ -251,5 +267,15 @@ public class playerController : MonoBehaviour {
 			break;
 		}
 	}
-		
+    private void AttackDone()
+    {
+        attacking = false;
+        attackTimer = 0;
+    }
+    private void GotHitDone()
+    {
+        gotHit = false;
+        gotHitTimer = 0;
+    }
+
 }

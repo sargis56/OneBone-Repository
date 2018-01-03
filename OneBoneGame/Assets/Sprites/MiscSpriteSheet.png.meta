@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 708994dfa1e5bce41b27b993dd8bb95d
-timeCreated: 1513830728
+timeCreated: 1514412067
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -45,6 +45,7 @@ TextureImporter:
     21300076: Lives8
     21300078: Lives7
     21300080: MiscSpriteSheet_23
+    21300082: MiscSpriteSheet_24
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -99,7 +100,7 @@ TextureImporter:
   - buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -107,7 +108,7 @@ TextureImporter:
   - buildTarget: Standalone
     maxTextureSize: 2048
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -379,9 +380,9 @@ TextureImporter:
       name: MiscSpriteSheet_18
       rect:
         serializedVersion: 2
-        x: 223
+        x: 224
         y: 28
-        width: 106
+        width: 105
         height: 105
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -395,7 +396,7 @@ TextureImporter:
         serializedVersion: 2
         x: 337
         y: 28
-        width: 56
+        width: 57
         height: 105
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -452,7 +453,7 @@ TextureImporter:
         x: 81
         y: 335
         width: 86
-        height: 28
+        height: 29
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -687,12 +688,26 @@ TextureImporter:
       name: MiscSpriteSheet_23
       rect:
         serializedVersion: 2
-        x: 192
+        x: 191
         y: 387
-        width: 187
+        width: 188
         height: 102
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiscSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 365
+        width: 95
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
